@@ -32,39 +32,39 @@ window.onscroll = function () {
   }
 //safty
 
-// 	  document.addEventListener("contextmenu", function (event) {
-//         event.preventDefault();
-//       });
+	  document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+      });
 
-//      document.addEventListener("keydown", function (event) {
-//         if (event.ctrlKey && (event.keyCode === 67 || event.keyCode === 86 || event.keyCode === 85 || event.keyCode === 117)) {
-//         event.preventDefault();
-//          }
-//      });
+     document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey && (event.keyCode === 67 || event.keyCode === 86 || event.keyCode === 85 || event.keyCode === 117)) {
+        event.preventDefault();
+         }
+     });
 
-//     document.addEventListener("keydown", function (event) {
-//       if(event.keyCode === 123) {
-//          event.preventDefault();
-//       }
-//      });
+    document.addEventListener("keydown", function (event) {
+      if(event.keyCode === 123) {
+         event.preventDefault();
+      }
+     });
 	  
-// 	 document.addEventListener("keydown", function(event){
-// 		 if(event.shiftKey && (event.ctrlKey && (event.keyCode === 67 || event.keyCode === 73 || event.keyCode === 74))){
+	 document.addEventListener("keydown", function(event){
+		 if(event.shiftKey && (event.ctrlKey && (event.keyCode === 67 || event.keyCode === 73 || event.keyCode === 74))){
 		 
-// 	 event.preventDefault();
-//          }
-//      });
+	 event.preventDefault();
+         }
+     });
 	  
 	  
-// document.addEventListener("mousedown", function(event) {
-//       if (event.button === 2 || event.ctrlKey) {
-//         event.preventDefault();
-//       }
-//     });
+document.addEventListener("mousedown", function(event) {
+      if (event.button === 2 || event.ctrlKey) {
+        event.preventDefault();
+      }
+    });
 
-//     document.addEventListener("keydown", function(event) {
-//       if (event.ctrlKey && (event.keyCode === 44 || event.keyCode === 45)) {
-//         event.preventDefault();
-//       }
-//     });
+    document.addEventListener("keydown", function(event) {
+      if (event.ctrlKey && (event.keyCode === 44 || event.keyCode === 45)) {
+        event.preventDefault();
+      }
+    });
 
