@@ -22,10 +22,10 @@
     border-radius: 20px;
 }
 body {
-    /*	background-color: var(--dark-color);*/
+    	background-color: var(--dark-color);
     font-family: Calibri Regular;
-    background-image: url(../img/abstract-gradient-neon-lights@2x.jpg);
-    background-size: contain;
+/*     background-image: url(../img/abstract-gradient-neon-lights@2x.jpg);
+    background-size: contain; */
 }
 
 .navbar {
